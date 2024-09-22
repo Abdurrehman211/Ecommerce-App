@@ -1,0 +1,39 @@
+#offcanvasDarkNavbarLabel{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+text-align: center;
+}
+.nav-item{
+text-align: center;
+text-decoration: none;
+padding: 5px; 
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    transition: 0.3s ease-in;
+    padding: 5px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: black;
+    background-color: aliceblue;
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+}
+.navbar-brand{
+    font-size: 30px ;
+    font-style: oblique;
+    font-weight: bolder;
+}
+#cart{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin:0px 10px ;
+    mix-blend-mode: luminosity;
+}
