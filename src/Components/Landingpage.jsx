@@ -22,7 +22,7 @@ function Landingpage() {
     const HandleMovement = () => {
         let x = document.getElementById("gsearch").value;
         // console.log(x);
-        window.location.href = `http://localhost:3000/${x}`
+        window.location.href = `/${x}`
     }
     const Goto = () => {
         navigate('/products');
